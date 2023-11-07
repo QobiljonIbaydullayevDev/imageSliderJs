@@ -1,0 +1,28 @@
+/* body{
+    background-color: black;
+} */
+.container{
+    width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
+}
+/* .fa-play2{
+    transform: rotate(180deg);
+} */
+
+.slider{
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+    /* margin: 30px auto; */
+    overflow: hidden;
+}
+
+.slider-line{
+    width: 1000px;
+    height: 500px;
+    background-color: orange;
+    display: flex;
+    position: relative;
+    left: 0;
+}

@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Img slider in js</title>
-</head>
-<body>
-    <div>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div>
         <h1>Image slider in javascript</h1>
+      </div>
+      <div class="slider">
+        <div class="slider-line">
+          <img
+            src="./imgs/maksym-kaharlytskyi-QQcLNBQ6i_A-unsplash.jpg"
+            alt=""
+          />
+          <img src="./imgs/neom-CuoJHB42D1I-unsplash.jpg" alt="" />
+          <img src="./imgs/neom-gYmExXn83_8-unsplash.jpg" alt="" />
+        </div>
+      </div>
+      <div>
+        <button class="slider-next">
+            <i class="fa-solid fa-play fa-2xl"></i>
+        </button>
+        <button class="slider-prew">
+            <i class="fa-solid fa-play fa-2xl fa-play2"></i>
+        </button>
+      </div>
     </div>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
