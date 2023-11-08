@@ -2,8 +2,14 @@ let offset = 0;
 let textArray = ["Barca", "Myu","Real", "Bayer"]
 const sliderLine = document.querySelector('.slider-line');
 const sliderH1 = document.createElement('h1')
+const sliderP = document.createElement('p')
+
 sliderH1.classList="slider-text"
+sliderP.classList = "slider-paratext"
+
 const sliderText = document.querySelector('.slider-text')
+const sliderParaText = document.querySelector('.slider-paratext')
+
 
 // sliderText.innerHTML= "Image slider in javascript"
 
