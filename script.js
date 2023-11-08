@@ -1,8 +1,14 @@
 let offset = 0;
+let textArray = ["Barca", "Myu","Real", "Bayer"]
 const sliderLine = document.querySelector('.slider-line');
+const sliderText = document.querySelector('.slider-text')
 
 const next = document.querySelector('.slider-next').addEventListener('click', function(){
     offset = offset +512;
+    textArray.map((index)=>{
+
+        console.log(index);
+    })
     if(offset > 1536){
         offset=0;
     }
