@@ -2,6 +2,7 @@ let offset = 0;
 let textArray = ["Barca", "Myu","Real", "Bayer"]
 const sliderLine = document.querySelector('.slider-line');
 const sliderText = document.querySelector('.slider-text')
+const sliderH1 = document.createElement('h1')
 
 const next = document.querySelector('.slider-next').addEventListener('click', function(){
     offset = offset +512;
@@ -20,6 +21,10 @@ const next = document.querySelector('.slider-next').addEventListener('click', fu
 
 const prev = document.querySelector('.slider-prew').addEventListener('click', function(){
     offset = offset -512;
+    textArray.map((index)=>{
+
+        console.log(index);
+    })
     if(offset < 0){
         offset=1536;
     }
