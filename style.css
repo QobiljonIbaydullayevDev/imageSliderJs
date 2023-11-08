@@ -3,19 +3,17 @@
     margin: 30px auto;
     padding: 30px;
 }
-
 .slider-text{
     text-align: center;
 }
-
 .slider{
     width: 512px;
-    height: 512px;
+    height: 600px;
     border: 2px solid white;
     margin: 30px auto;
     overflow: hidden;
+    text-align: center;
 }
-
 .slider-line{
     width: 512px;
     height: 512px;
@@ -23,11 +21,9 @@
     position: relative;
     left: 0;
 }
-
 .fa-play1{
     transform: rotate(180deg);
 }
-
 .slider-btns{
     display: flex;
     gap: 540px;
@@ -39,4 +35,6 @@
     height: 50px;
     border: none;
     border-radius: 25px;
+    background-color: green;
+    color: white;
 }

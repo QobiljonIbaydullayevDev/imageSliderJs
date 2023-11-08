@@ -7,6 +7,7 @@ document.querySelector('.slider-next').addEventListener('click', function(){
         offset=0;
     }
     sliderLine.style.left = -offset + 'px'
+    console.log(offset);
 })
 
 document.querySelector('.slider-prew').addEventListener('click', function(){
@@ -15,4 +16,6 @@ document.querySelector('.slider-prew').addEventListener('click', function(){
         offset=1536;
     }
     sliderLine.style.left = -offset + 'px'
+
+    console.log(sliderLine);
 })
