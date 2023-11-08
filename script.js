@@ -1,8 +1,11 @@
 let offset = 0;
 let textArray = ["Barca", "Myu","Real", "Bayer"]
 const sliderLine = document.querySelector('.slider-line');
-const sliderText = document.querySelector('.slider-text')
 const sliderH1 = document.createElement('h1')
+sliderH1.classList="slider-text"
+const sliderText = document.querySelector('.slider-text')
+
+// sliderText.innerHTML= "Image slider in javascript"
 
 const next = document.querySelector('.slider-next').addEventListener('click', function(){
     offset = offset +512;
